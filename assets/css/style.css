@@ -1,0 +1,97 @@
+*{
+   border:0px;
+   margin: 0px;
+   padding: 0px; 
+}
+hr {
+    border: 2px solid gray; /* Línea negra de 2px de grosor */
+    width: 100%; /* Línea con ancho del 50% */
+}
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.header{
+    width: 70vw;
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cuerpo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    flex-direction: column;
+  /* background-color: #4CAF50; */ 
+}
+.input-container {
+    display: flex;
+    height: 20%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+   /* background-color: cornflowerblue; */
+}
+
+.registro{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+}
+.resumen{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 24vw;
+   /* background-color: Gray; */
+}
+.tareas{
+    width: 76vw;
+    /* background-color: orange; */
+
+}
+  
+#nuevaTarea {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+  
+button {
+    padding: 10px;
+    background-color: lightgray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+  
+.completada {
+    text-decoration: line-through;
+    color: gray;
+    font-weight: 100;
+}

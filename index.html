@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>To-Do List</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>To-Do list</h1>
+            <hr>        
+        </div>
+        <div class="cuerpo">
+            <div class="input-container">
+                <input type="text" id="nuevaTarea" placeholder="Agregar tarea...">
+                <button onclick="agregarTarea()">Agregar</button>
+            </div>
+            <div class="registro">
+                <div class="resumen">
+                    <p>Total de Tareas: <span class="total-tareas">0</span> </p>  
+                    <p>Tareas Realizadas: <span class="tareas-realizadas">0</span> </p>
+                </div>    
+                <div class="tareas">
+                    <ul id="listaTareas">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/funciones.js"></script>
+</html>
